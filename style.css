@@ -1,0 +1,133 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Global styles */
+
+.primary-btn{
+    font-size: 20px;
+    background-color:#fd6e0a ;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: px;
+}
+.primary-btn a{
+    color: white;
+    text-decoration: none;
+}
+.secondary-btn{
+    font-size: 20px;
+    background-color:#fd6f0a00 ;
+    padding: 7px 20px;
+    border: 1px solid #fd6e0a;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
+.secondary-btn a{
+    color: #fd6e0a;
+    text-decoration: none;
+}
+
+/* Header styles */
+header{
+    background-color: #fff8f3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.logo-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+    margin: 0px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #181818;
+}
+/* Hero section styles */
+header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.hero-section{
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content{
+    width: 585px;
+}
+.hero-content h4{
+    font-size: 45px;
+    font-weight:500;
+    color: #181818;
+    margin: 5px;
+}
+.hero-content h1{
+    font-size: 85px;
+    font-weight:800;
+    color: #181818;
+    margin: 5px;
+}
+.hero-content p{
+    font-size: 18px;
+    color: #757575;
+    margin: 5px;
+}
+.hero-image{
+    margin: 0px;
+    width: 584px;
+}
+
+/* Main styls */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section styles */
+.about-section{
+    background-color:#fff8f3;
+    padding: 100px;
+    margin: 100px 0px;
+    text-align: center;
+}
+.about-content{
+    border: 1px solid black;
+    padding: 5px;
+}
+.about-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.about-card-title{
+    font-size: 20px;
+    margin: 5px;
+}
+.about-card-details{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
